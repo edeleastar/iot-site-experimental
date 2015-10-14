@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Project",
+    "main_image"     : "/assets/images/iot/project/project-1.png",
+    "secondary_image": "/assets/images/iot/project/project-2.jpeg",
+    "modules_image"  : "/assets/images/iot/project/project-modules.png"
+  }
+}

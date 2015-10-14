@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Data Science",
+    "main_image"     : "/assets/images/iot/data/data-1.png",
+    "secondary_image": "/assets/images/iot/data/data-2.jpeg",
+    "modules_image"  : "/assets/images/iot/data/data-modules.png"
+  }
+}

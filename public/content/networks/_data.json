@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Networks & Cloud",
+    "main_image"     : "/assets/images/iot/networks/networks-1.png",
+    "secondary_image": "/assets/images/iot/networks/networks-1.jpeg",
+    "modules_image"  : "/assets/images/iot/networks/networks-modules.png"
+  }
+}

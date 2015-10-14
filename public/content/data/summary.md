@@ -1,0 +1,6 @@
+####Data Science
+
+At the heart of many IoT applications is data: measurements, events, alarms and other information that must be relayed, stored and ultimately turned into knowledge. Learn the fundamentals of modern approaches to data in this strand.
+
+
+	    

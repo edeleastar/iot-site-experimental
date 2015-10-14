@@ -1,0 +1,70 @@
+extends layouts/pages/_main.jade
+include /layouts/mixins/_strand-panel.jade
+include /layouts/mixins/_strand-icons.jade
+
+block title
+  title IoT
+block content
+
+  .mainbody
+    .container
+      br
+      .row
+        .col-md-6
+          .welcome
+            p BACHELOR OF SCIENCE (HONOURS)
+            h2 APPLIED COMPUTING IN THE INTERNET OF THINGS
+            include:markdown welcome.md
+
+        .col-md-6
+          br
+          .embed-responsive.embed-responsive-16by9
+            iframe(class="embed-responsive-item", src='http://www.youtube.com/embed/Q3ur8wzzhBU', frameborder='1', allowfullscreen='allowfullscreen')
+
+    .curriculum-section
+      .container
+        .strand-tiles
+          .strand-panel.programming-style
+            .strand-panel-body
+              include:markdown content/programming/summary.md
+              +strand_icons('el-cogs', 'content/programming')
+          .strand-panel.data-science-style
+            .strand-panel-body
+              include:markdown content/data/summary.md
+              +strand_icons('el-graph', 'content/data')
+          .strand-panel.networks-style
+            .strand-panel-body
+              include:markdown content/networks/summary.md
+              +strand_icons('el-cloud', 'content/networks')
+          .strand-panel.project-style
+            .strand-panel-body
+              include:markdown content/project/summary.md
+              +strand_icons('el-wrench', 'content/project')
+          .strand-panel.devices-style
+            .strand-panel-body
+              include:markdown content/devices/summary.md
+              +strand_icons('el-compass', 'content/devices')
+          .strand-panel.maths-style
+            .strand-panel-body
+              include:markdown content/maths/summary.md
+              +strand_icons('el-magic', 'content/maths')
+
+    .container
+      .research-head.text-center
+        hr
+        h3 Supported by leading edge research at...
+        hr
+        .row
+          .col-md-4
+            a(href="http://www.tssg.org")
+              img(src="/assets/images/tssg.png"  class="center-block img-responsive" alt="TSSG")
+          .col-md-4
+            a(href="http://ctrg.ie")
+              img(src="/assets/images/ctrg.png" class="center-block img-responsive" alt="CTRG")
+          .col-md-4
+            a(href="http://www.wit.ie/research/centres_and_groups/research_groups/science/automotive_control_group")
+              img(src="/assets/images/automotive.png" class="center-block img-responsive" alt="ACG")
+        hr
+
+  script(type="text/javascript").
+    jQuery(function($){$('.strand-panel').responsiveEqualHeightGrid();});

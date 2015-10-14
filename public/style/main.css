@@ -1,0 +1,28 @@
+
+.mainbody
+{
+  background      : url("/assets/images/interentthings_1024_300_c1.jpg") no-repeat 0px 0px;
+  background-size: 100%;
+  background-position: top center;
+}
+
+
+.welcome {
+    background: rgba(58, 84, 90, 0.5);
+    padding: 2.5em 2em;
+}
+
+.programming-style
+{
+  background: #7bbd42;
+}
+
+.data-science-style
+{
+    background: #feb913;
+}
+
+.networks-style
+{
+    background: #f05423;
+}

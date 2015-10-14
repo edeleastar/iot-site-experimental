@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Devices & Systems",
+    "main_image"     : "/assets/images/iot/devices/devices-1.png",
+    "secondary_image": "/assets/images/iot/devices/devices-2.png",
+    "modules_image"  : "/assets/images/iot/devices/devices-modules.png"
+  }
+}

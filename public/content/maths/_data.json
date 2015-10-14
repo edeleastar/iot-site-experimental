@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Mathematics",
+    "main_image"     : "/assets/images/iot/maths/maths-1.png",
+    "secondary_image": "/assets/images/iot/maths/maths-2.jpg",
+    "modules_image"  : "/assets/images/iot/maths/maths-modules.png"
+  }
+}

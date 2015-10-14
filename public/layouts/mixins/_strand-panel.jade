@@ -1,0 +1,11 @@
+mixin strand_panel(title, outline, icon, style, url)
+  .element.strand-panel(class=style)
+    .strand-panel-body
+      h4= title
+      p= outline
+      .icons
+        .icon-left
+          i.el.el-5x.white-icon(class=icon)
+        .icon-right
+          a(href=url)
+            i.arrow.arrow1

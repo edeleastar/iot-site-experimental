@@ -1,0 +1,3 @@
+####Networks & Cloud
+
+This strand will explore modern networks and cloud technology. Be able to configure, network and manage all categories of computer systems from simple controlers to single board board computers, mobiles and full workstations.

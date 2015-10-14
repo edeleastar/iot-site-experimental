@@ -1,0 +1,9 @@
+{
+  "index":
+  {
+    "title"          : "Programming",
+    "main_image"     : "/assets/images/iot/programming/programming-1.png",
+    "secondary_image": "/assets/images/iot/programming/programming-2.jpeg",
+    "modules_image"  : "/assets/images/iot/programming/programming-modules.png"
+  }
+}
