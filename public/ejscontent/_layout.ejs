@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+  <%- partial("../ejslayouts/_head-section") %>
+</head>
+<body>
+  <%- partial("../ejslayouts/_header") %>
+  <div class="ui container">
+    <section class="ui middle aligned stackable grid segment">
+      <%- yield %>
+    </section>
+  </div>
+  <%- partial("../ejslayouts/_footer") %>
+</body>
+</html>

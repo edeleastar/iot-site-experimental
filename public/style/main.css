@@ -10,3 +10,8 @@
     background: rgba(58, 84, 90, 0.5);
     padding: 2.5em 2em;
 }
+
+article {
+  font-size: 1.33em;
+  line-height: 1.3em;
+}
